@@ -2,9 +2,9 @@ version: "3"
 services:
 
   api.prod.docker:
-    container_name: "cursoaws_api"
+    container_name: "mysql"
     restart: "always"
-    image: cursoaws_api
+    image: docker pull mysql
     user: root
     working_dir: /app/www/
     environment:
