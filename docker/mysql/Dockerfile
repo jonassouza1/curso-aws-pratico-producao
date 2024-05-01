@@ -1,5 +1,5 @@
 # our base image
-FROM mysql:5.7.28
+FROM mysql:8.0.32
 
 # specify the port number the container should expose
 EXPOSE 3306
